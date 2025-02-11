@@ -1,0 +1,21 @@
+h1 {color:#ff0000;
+    text-align: center;
+    background-color: rgb(229, 190, 196);
+    border: rgb(231, 231, 213);}
+
+h2{color: black;width: 300px;
+background-color:rgb(248, 201, 225);
+border: 2px solid pink;
+margin: 10px;}
+
+h3 {color:rgb(195, 136, 172); margin-left: 100px}
+
+img{display: block;
+    margin: 0 auto;}
+
+h4{background-color: rgb(197, 158, 158);}
+
+ol{background-color: rgb(197, 142, 142);}
+
+body{background-color:rgb(223, 198, 198);
+margin: 50px;}
