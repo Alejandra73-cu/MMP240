@@ -4,13 +4,17 @@ h1 {color:#ff0000;
     border: rgb(231, 231, 213);
     font-family: "Pacifico", serif;
     font-weight: 400;
-    font-style: var(100px);}
+    font-style: var(100px);
+font-size: 3em;
+line-height: 1.4em;}
 
 h2{color: black;width: 300px;
-background-color:rgb(248, 201, 225);
+background-color:#f8c9e1;
 border: 2px solid pink;
 margin: 10px;}
-
+li{
+    margin-bottom: 1em;
+}
 h3 {color:rgb(195, 136, 172); 
     margin-left: 100px; 
     font-style: oblique;
@@ -23,13 +27,16 @@ img{display: block;
     border-color: bisque;
 border-radius: 20px;}
 
-h4{background-color: rgb(197, 158, 158);}
+h4{background-color: rgb(197, 158, 158);
+font-size: 15px;}
 
 ol{background-color: rgb(197, 142, 142);
-font-family: Arial, Helvetica, sans-serif;}
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;}
 
 body{background-color:rgb(223, 198, 198);
 margin: 50px;font-style: helvetica;border: solid 10px;
-border-color: rgb(120, 64, 94);border-width: 5px; border-radius: 10px; padding: 20px; 
+border-color: rgb(120, 64, 94);border-width: 5px; 
+border-radius: 10px; padding: 20px; 
 
 }
