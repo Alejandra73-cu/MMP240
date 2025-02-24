@@ -4,7 +4,6 @@ h1 {color:#ff0000;
     border: rgb(231, 231, 213);
     font-family: "Pacifico", serif;
     font-weight: 400;
-    font-style: var(100px);
 font-size: 3em;
 line-height: 1.4em;}
 
@@ -35,7 +34,7 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;}
 
 body{background-color:rgb(223, 198, 198);
-margin: 50px;font-style: helvetica;border: solid 10px;
+margin: 50px;font-style:italic;border: solid 10px;
 border-color: rgb(120, 64, 94);border-width: 5px; 
 border-radius: 10px; padding: 20px; 
 
