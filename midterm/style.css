@@ -4,9 +4,24 @@ body{
 }
 
 nav{
-    background-color: rgb(131, 182, 224);
+background-color: black;
+text-align: right;
+
     
 }
+body{
+  font-family:
+}
+nav li{
+    display: inline;
+    margin-left: 3em;
+   
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
 div#wrapper{
 
     width:1200px;
@@ -25,6 +40,8 @@ header{
 .banner-text{
     color:white;
     width:40%;
+    margin-bottom: 2em;
+    
 }
 
 .btn{
