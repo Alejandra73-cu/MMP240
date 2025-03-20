@@ -44,6 +44,11 @@ text-align: left;
 
 }
 
+#wrapper{
+    max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 header{
     padding:2em;
     background:linear-gradient(90deg, rgba(6,78,138,1) 0%, rgba(135,191,235,0) 79%, rgba(148,174,180,0) 100%),
@@ -91,10 +96,14 @@ footer{
 }
 
 
+
+
 /*this are episodesstyles*/
 .episodes{
     display:flex;
     flex-wrap:wrap;
+    
+   
 }
 
 .episode-card{
@@ -102,6 +111,8 @@ footer{
     margin-right: 30px;
     margin-bottom: 30px;
     border:solid 1px gray;
+   
+   
 }
 .episode-card:last-child{
     margin-right: 0;
@@ -109,6 +120,7 @@ footer{
 }
 .episode-card img{
     width:100%;
+    
 }
 
 .episode-card p, .episode-card h4{
