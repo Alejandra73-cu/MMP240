@@ -126,6 +126,7 @@ li.dropdown:hover ul{
     background: url("images/queenscollage.jpg.webp") no-repeat top/cover;
     padding:3em;
     color: white;
+    margin-bottom: 3em;
 }
 .hero p{
     background-color: rgba(0, 0, 0, 0.3); 
@@ -136,7 +137,11 @@ li.dropdown:hover ul{
     text-decoration: none;
     padding: 0.7em 1em;
     border-radius: 10px;
+    display: inline-block;
+    color: white;
 }
+
+/*main content*/
 
 article{
     margin-bottom: 3em;
@@ -172,4 +177,26 @@ article img{
     #top nav li{
         margin: 0 1em;
     }
-}
+
+    .dropdown{
+        width:32%;
+    }
+
+    .dropdown:hover{
+        border-radius: 10px 10px 0;
+    }
+    
+    .dropdown ul{
+        position: absolute;
+        width: 32%;
+    }
+ /*main grib*/
+ 
+.home main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2em;
+  }
+ 
+} 
+/* end of media query */
