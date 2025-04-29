@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down" />
+    <title>exercise10</title>
+
+    <style>
+        nav ul{
+            padding:0;
+        }
+        nav li a{
+            display:block;
+        background-color: rgb(9, 158, 192);
+    color:black;
+    text-decoration: none;
+    padding:0.5em 1em;
+    border-bottom: solid 1px rgb(255, 255, 255);
+        }
+
+ .dropdown ul{
+    display: none;
+
+    
+}
+
+li.dropdown:hover ul{
+    display:block;
+
+}
+
+nav li li a{
+    background-color: rosybrown;
+}
+
+.material-symbols-outlined{
+    float: right;
+    color: white;
+    padding-top:10px;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            
+            <li class="dropdown"> <span class="material-symbols-outlined">
+                arrow_drop_down
+                </span><a href="">fruits</a>  
+               
+               
+            <ul>
+                <li><a href="#">Bananana</a></li>
+                <li><a href="#">Apple</a></li>
+                <li><a href="#">Orange</a></li>
+            </ul>
+        
+            </li>
+            <li class="dropdown"> <span class="material-symbols-outlined">
+                arrow_drop_down
+                </span><a href="">Vegetables</a>
+
+               
+                <ul>
+                    <li><a href="#">Carrots</a></li>
+                    <li><a href="#">Brocoli</a></li>
+                    <li><a href="#">Peppers</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+</body>
+</html>
