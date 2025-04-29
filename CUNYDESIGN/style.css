@@ -159,19 +159,31 @@ article img{
     
     #top-nav{
         display:flex;
-        positioning:static;
+        position:static;
         border:none;
-
+        
 
     }
 
     #top-nav ul{
         display:flex;
-        align-items: ;
+       
      
     }
     #top-nav ul a{
         border: none;
+    }
+
+    .hero{
+        padding: 43m 2em;
+    }
+
+    /*program menu for large screens*/
+
+    .programs-menu{
+        position:relative;
+        display:flex;
+        justify-content:space-between;
     }
 
     #top nav li{
@@ -194,7 +206,7 @@ article img{
  
 .home main{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: minmax(500px, 1fr) 300px;
     grid-gap: 2em;
   }
  
