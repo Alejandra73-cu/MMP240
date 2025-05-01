@@ -150,6 +150,52 @@ article{
 article img{
     max-width: 100%;
 }
+/*program cards*/
+.card{
+    border:solid 1px #000;
+    border-radius: 10px;
+  
+    margin-bottom: 2em;
+    background-color: rgba(222, 222, 222, 0.857);
+    transition-property: background-color, box-shadow, transform;
+    transition-duration: 0.4s ;
+    ;
+}
+
+.card:hover{
+    background-color: azure;
+    box-shadow: 5px 5px 6px #5b7ca9; /* first value is horizontal shadow, second is vertical shadow, third is the blur and color,negative values to the other side */
+    transform: translate(2px, -2px);
+}
+.card-body{
+    padding: 1em;
+}
+
+.card img{
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3{
+    font-size: 1.2rem;
+  
+}
+
+.card h2{
+    font-size: 1.6rem;
+
+}
+/*utility classes*/
+.responsive-img{
+    width:100%;
+
+}
+.no-underline{
+    text-decoration: none;
+}
+
+.black{
+    color: #000;
+}
 
 
 @media (min-width:768px){
