@@ -50,6 +50,14 @@ header{
   
 }
 
+
+.card h4{
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+
 /*top navigation*/
 
 
@@ -159,7 +167,7 @@ article img{
     background-color: rgba(222, 222, 222, 0.857);
     transition-property: background-color, box-shadow, transform;
     transition-duration: 0.4s ;
-    ;
+    margin-bottom: 2em;
 }
 
 .card:hover{
@@ -173,6 +181,7 @@ article img{
 
 .card img{
     border-radius: 10px 10px 0 0;
+    ;
 }
 
 .card h3{
@@ -254,6 +263,16 @@ article img{
     display: grid;
     grid-template-columns: minmax(500px, 1fr) 300px;
     grid-gap: 2em;
+  }
+
+  .programs-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1em;
+    
+  }
+  .card{
+    height: 100%;
   }
  
 } 
