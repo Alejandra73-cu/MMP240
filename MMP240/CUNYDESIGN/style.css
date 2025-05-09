@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Pacifico&family=Zen+Tokyo+Zoo&display=swap');
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+    margin:16px;
+    font-family:"Work Sans", sans-serif;
+}
+
+/* typohraphy */
+
+h1{
+    font-family: 1rem;
+    text-transform: uppercase;
+}
+
+.programs-nav h2{
+    font-family: "Zen Tokyo Zoo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 3rem;
+    border: #000 solid 1px;
+}
+
+.programs-nav h2{
+    background:linear-gradient(90deg, rgba(6,78,138,1) 0%, rgba(154, 79, 5, 0) 79%, rgba(251, 138, 0, 0.798) 100%);
+    padding: 1em;
+    text-align: center;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #000;    
+}
+
+.program-nav h3{
+ font-size:1rem;
+
+}
+section h2{
+    font-size: 1rem;
+    text-transform:uppercase;
+}
+
+article h3{
+    font-size: 1rem;
+
+}
+
+article h3 a{
+    color: #000;
+}
+
+
+header{
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+  
+}
+
+
+.card h4{
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+
+/*top navigation*/
+
+
+#top-nav{
+ display: none;
+ position:absolute;
+right: 10px;
+top: 50px;
+z-index:100;
+border:solid 1px #000;
+background-color: #fff;
+}
+
+ nav ul{
+   
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+
+ }
+
+ #top-nav a{
+    display: block;
+padding: 5px;
+border-bottom:solid 1px #000;
+
+ }
+
+ #top-nav input{
+    display:block;
+    margin-top: 5px;
+    margin: 10px 5px;
+
+ }
+
+.msterial-symbols-outlined{
+    float: right;
+}
+
+.news article{
+    background-color: rgba(179, 179, 179, 0.857);
+    transition-property: background-color, box-shadow, transform;
+    transition-duration: 0.4s ;
+    margin-bottom: 2em;
+    padding: 1em;
+   
+}
+.news article a{
+    background-color: rgb(172, 196, 208);
+    border: #000 solid 1px;
+    border-radius: 1em;
+    padding:0.5em;
+}
+.news article a:hover{
+    background-color: azure;
+    box-shadow: 5px 5px 6px #5b7ca9; /* first value is horizontal shadow, second is vertical shadow, third is the blur and color,negative values to the other side */
+    transform: translate(2px, -2px);
+}
+
+/*program navigation*/
+
+.dropdown{
+    background-color: rgb(87, 156, 220);
+  margin-bottom: 1em;
+    border-radius: 10px;
+}
+.dropdown a{
+    display:block;
+    text-decoration:none;
+    color:#000000;
+    padding:5px; 
+}
+
+.dropdown ul{
+    background-color: rgba(255, 255, 255, 0.857);
+    display: none;
+    
+}
+li.dropdown:hover ul{
+    display:block;
+
+}
+
+.material-symbols-outlined{
+    float: right;
+    color: rgb(18, 6, 6);
+   
+}
+
+/*hero banner*/
+
+.hero{
+    background: url("images/queenscollage.jpg.webp") no-repeat top/cover;
+    padding:3em;
+    color: white;
+    margin-bottom: 3em;
+}
+.hero p{
+    background-color: rgba(0, 0, 0, 0.3); 
+    padding: 1em;
+}
+.btn{
+    background-color: rgb(53, 127, 184);
+    text-decoration: none;
+    padding: 0.7em 1em;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+}
+
+/*main content*/
+
+article{
+    margin-bottom: 3em;
+}
+
+article img{
+    max-width: 100%;
+}
+/*program cards*/
+.card{
+    border:solid 1px #000;
+    border-radius: 10px;
+  
+    margin-bottom: 2em;
+    background-color: rgba(222, 222, 222, 0.857);
+    transition-property: background-color, box-shadow, transform;
+    transition-duration: 0.4s ;
+    margin-bottom: 2em;
+}
+
+.card:hover{
+    background-color: azure;
+    box-shadow: 5px 5px 6px #5b7ca9; /* first value is horizontal shadow, second is vertical shadow, third is the blur and color,negative values to the other side */
+    transform: translate(2px, -2px);
+}
+.card-body{
+    padding: 1em;
+}
+
+.card img{
+    border-radius: 10px 10px 0 0;
+    ;
+}
+
+.card h3{
+    font-size: 1.2rem;
+  
+}
+
+.card h2{
+    font-size: 1.6rem;
+
+}
+/*utility classes*/
+.responsive-img{
+    width:100%;
+
+}
+.no-underline{
+    text-decoration: none;
+}
+
+.black{
+    color: #000;
+}
+
+
+@media (min-width:768px){
+    .medial-symbols-outlined{
+        display: none;
+    }
+    
+    #top-nav{
+        display:flex;
+        position:static;
+        border:none;
+        
+
+    }
+
+    #top-nav ul{
+        display:flex;
+       
+     
+    }
+    #top-nav ul a{
+        border: none;
+    }
+
+    .hero{
+        padding: 43m 2em;
+    }
+
+    /*program menu for large screens*/
+
+    .programs-menu{
+        position:relative;
+        display:flex;
+        justify-content:space-between;
+    }
+
+    #top nav li{
+        margin: 0 1em;
+    }
+
+    .dropdown{
+        width:32%;
+    }
+
+    .dropdown:hover{
+        border-radius: 10px 10px 0;
+    }
+    
+    .dropdown ul{
+        position: absolute;
+        width: 32%;
+    }
+ /*main grib*/
+ 
+.home main{
+    display: grid;
+    grid-template-columns: minmax(500px, 1fr) 300px;
+    grid-gap: 2em;
+  }
+
+  .programs-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1em;
+    
+  }
+  .card{
+    height: 100%;
+  }
+ 
+} 
+/* end of media query */
