@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Pacifico&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Pacifico&family=Yatra+One&family=Zen+Tokyo+Zoo&display=swap');
 
 
 body{
@@ -7,27 +8,38 @@ body{
     max-width: 1200px;
     margin:16px;
     font-family:"Work Sans", sans-serif;
+    background-color: #d1e7f5;
 }
 
 /* typohraphy */
 
 h1{
-    font-family: 1rem;
-    text-transform: uppercase;
-}
-
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+ 
+  }
+  
+ 
 .programs-nav h2{
     font-family: "Zen Tokyo Zoo", system-ui;
   font-weight: 400;
   font-style: normal;
-    font-size: 3rem;
-    border: #000 solid 1px;
+    font-size: 4rem;
+    border: #ed8836 solid 1px;
+    color:rgb(255, 132, 0);
+    background:linear-gradient(90deg, rgba(6,78,138,1) 0%, rgba(135,191,235,0) 79%, rgba(148,174,180,0) 100%),
+    url(images/banner.jpg);
 }
 
 .programs-nav h2{
-    background:linear-gradient(90deg, rgba(6,78,138,1) 0%, rgba(154, 79, 5, 0) 79%, rgba(251, 138, 0, 0.798) 100%);
+    background:linear-gradient(90deg, rgba(6,78,138,1) 0%, rgba(135,191,235,0) 79%, rgba(148,174,180,0) 100%),
+    url(images/banner.jpg);
     padding: 1em;
     text-align: center;
+}
+header h1{
+    color:rgb(251, 144, 56)
 }
 
 h1 a{
@@ -70,6 +82,11 @@ header{
 }
 
 
+.header img{
+    max-width: 50%;
+    height: auto;
+}
+
 /*top navigation*/
 
 
@@ -80,7 +97,9 @@ right: 10px;
 top: 50px;
 z-index:100;
 border:solid 1px #000;
-background-color: #fff;
+background-color: #d6effb;
+transform:translate (-200px);
+transition-property:transform 0.3s ease-in;
 }
 
  nav ul{
@@ -94,7 +113,8 @@ background-color: #fff;
  #top-nav a{
     display: block;
 padding: 5px;
-border-bottom:solid 1px #000;
+border-bottom:solid 1px #fafafa;
+
 
  }
 
@@ -110,7 +130,7 @@ border-bottom:solid 1px #000;
 }
 
 .news article{
-    background-color: rgba(179, 179, 179, 0.857);
+    background-color: rgba(179, 212, 245, 0.857);
     transition-property: background-color, box-shadow, transform;
     transition-duration: 0.4s ;
     margin-bottom: 2em;
@@ -118,10 +138,11 @@ border-bottom:solid 1px #000;
    
 }
 .news article a{
-    background-color: rgb(172, 196, 208);
-    border: #000 solid 1px;
+    background-color: rgb(245, 140, 48);
+    border: #ef6312 solid 1px;
     border-radius: 1em;
     padding:0.5em;
+    text-decoration: none;
 }
 .news article a:hover{
     background-color: azure;
@@ -167,12 +188,13 @@ li.dropdown:hover ul{
     color: white;
     margin-bottom: 3em;
 }
+
 .hero p{
     background-color: rgba(0, 0, 0, 0.3); 
     padding: 1em;
 }
 .btn{
-    background-color: rgb(53, 127, 184);
+    background-color: rgb(238, 137, 49);
     text-decoration: none;
     padding: 0.7em 1em;
     border-radius: 10px;
@@ -195,14 +217,14 @@ article img{
     border-radius: 10px;
   
     margin-bottom: 2em;
-    background-color: rgba(222, 222, 222, 0.857);
+    background-color: rgba(213, 238, 245, 0.857);
     transition-property: background-color, box-shadow, transform;
     transition-duration: 0.4s ;
     margin-bottom: 2em;
 }
 
 .card:hover{
-    background-color: azure;
+    background-color: rgb(250, 211, 139);
     box-shadow: 5px 5px 6px #5b7ca9; /* first value is horizontal shadow, second is vertical shadow, third is the blur and color,negative values to the other side */
     transform: translate(2px, -2px);
 }
@@ -239,7 +261,7 @@ article img{
 
 
 @media (min-width:768px){
-    .medial-symbols-outlined{
+    .material-symbols-outlined{
         display: none;
     }
     
