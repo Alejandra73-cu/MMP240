@@ -8,7 +8,8 @@ body{
     max-width: 1200px;
     margin:16px;
     font-family:"Work Sans", sans-serif;
-    background-color: #d1e7f5;
+    background-color: rgb(150, 214, 248);
+
 }
 
 /* typohraphy */
@@ -17,19 +18,24 @@ h1{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
+    text-shadow: #ffffff 0px 3px 3px;
+    color: #ffffff;
  
   }
-  
+
+
+
+
  
 .programs-nav h2{
     font-family: "Zen Tokyo Zoo", system-ui;
   font-weight: 400;
   font-style: normal;
     font-size: 4rem;
-    border: #ed8836 solid 1px;
+    border: #36b6ed solid 1px;
     color:rgb(255, 132, 0);
-    background:linear-gradient(90deg, rgba(6,78,138,1) 0%, rgba(135,191,235,0) 79%, rgba(148,174,180,0) 100%),
-    url(images/banner.jpg);
+    text-shadow: white 0px 1px 1px;
+   
 }
 
 .programs-nav h2{
@@ -37,10 +43,9 @@ h1{
     url(images/banner.jpg);
     padding: 1em;
     text-align: center;
+    margin: 0;
 }
-header h1{
-    color:rgb(251, 144, 56)
-}
+
 
 h1 a{
     text-decoration: none;
@@ -67,6 +72,9 @@ article h3 a{
 
 
 header{
+    background-color: rgb(8, 148, 223);
+    margin-bottom:0;
+    padding: 1em;
     position:relative;
     display:flex;
     justify-content:space-between;
@@ -97,17 +105,20 @@ header{
 right: 10px;
 top: 50px;
 z-index:100;
-border:solid 1px #000;
-background-color: #d1e7f5;
+border:solid 2px #fbfbfb;
+background-color: rgb(8, 148, 223);
 transform:translate (-200px);
 transition-property:transform 0.3s ease-in;
-color:#000
+color:#ffffff
 
+}
+#top-nav a{
+    text-decoration: none;
 }
 
 #top-nav li:hover{
     background-color: #f0950d;
-    color: #fff;
+    color: #ffffff;
     border-radius: 10px;
      
 }
